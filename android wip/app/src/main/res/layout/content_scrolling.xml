@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/one"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/onedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/onetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/two"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/twodate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/twotime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="125dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:background="@drawable/lol" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/three"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/threedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/threetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/four"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/fourdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/fourtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/fivedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/fivetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/six"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/sixdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/sixtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/sevendate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/seventime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/eight"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/eightdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/eighttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="99dp"-->
+                <!--android:layout_height="75dp"-->
+                <!--android:background="@mipmap/ic_launcher_round" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/nine"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/ninedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/ninetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="What's up bro"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
